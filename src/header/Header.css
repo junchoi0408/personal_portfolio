@@ -1,0 +1,72 @@
+
+.header {
+    background-image: url("../img/background-image.jpg");
+    background-size: cover;
+    height: 100vh;
+    color: white;
+}
+
+.shadow {
+    background-color: rgba(0,0,0, 0.4);
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.container h1 {
+    font-size: clamp(2em, 5vw, 4em);
+}
+
+.container p {
+    font-size: clamp(1.5em, 3vw, 2.5em);
+    margin-bottom: 0.5em;
+}
+
+.container button {
+    display: inline-block;
+    color: #fff;
+    padding: 0.6em 1.3em;
+    border: 3px solid #fff;
+    border-radius: 30px;
+    transition: .5s ease all;
+    font-size: clamp(1em, 2vw, 1.4em);
+    background-color: transparent;
+}
+
+.container button:hover {
+    color: #000;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.icon {
+    border: 2px solid grey;
+    border-radius: 50%;
+    bottom: -20vh;
+    position: relative;
+    font-size: 35px;
+}
+
+.logo-container {
+    font-size: clamp(35px, 5vw, 40px);
+    margin-top: 0.5em;
+}
+
+.logo {
+   margin-left: 0.5em;
+   margin-right: 0.5em;
+}

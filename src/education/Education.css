@@ -1,0 +1,13 @@
+.education-body {
+    text-align: left;
+    padding: 0.5em;
+    border: 1px solid #dcd9d9;
+}
+
+.education-body h2{
+    font-size: 1.25em;
+}
+
+.education-body p {
+    font-size: 1em;
+}

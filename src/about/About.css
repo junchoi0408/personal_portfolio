@@ -1,0 +1,10 @@
+#about p{
+    padding: 1em 1em 0em 1em;
+    text-transform: none;
+}
+
+#about img {
+    border-radius: 50%;
+    width: 40%;
+    height: auto;
+}

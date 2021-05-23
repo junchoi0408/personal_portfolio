@@ -1,0 +1,40 @@
+#footer {
+    margin-top: 1em;
+}
+
+.footer-logo {
+    font-size: clamp(35px, 5vw, 35px);
+    color: #000;
+}
+
+.chev-up {
+    border: 2px solid grey;
+    border-radius: 50%;
+    font-size: clamp(35px, 5vw, 35px);
+}
+
+#footer p {
+    margin-bottom: 1em;
+    font-size: 1em;
+}
+
+.fa {
+    margin: 0 0.5em;
+}
+
+.logo-container-footer {
+    margin-top: 0.5em;
+}
+
+@media only screen and (min-width: 900px) {
+    #footer {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding-bottom: 1em;
+    }
+
+    #footer p {
+        margin-bottom: 0;
+    }
+}
