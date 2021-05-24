@@ -3,6 +3,7 @@ import './Header.css';
 import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
 import { HiChevronDown } from 'react-icons/hi';
 
+
 const Header = () => {
     return(
         <div className="header">

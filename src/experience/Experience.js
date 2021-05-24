@@ -12,7 +12,7 @@ const Experience = () => {
             <h1>Experience</h1>
             <div className="job-container">
                 <div className="job-btn-container">
-                    {jobs.map((job, index)=>{return <button key={job.id} onClick={()=>{setId(index)}} className={`job-btn ${index === id && 'job-btn active-btn'}`}>{job.company}</button>})}
+                    {jobs.map((job, index)=>{return <button key={job.id} onClick={()=>{setId(index)}} className={`job-btn ${index === id && 'active-btn'}`}>{job.company}</button>})}
                 </div>
                 <div className="experience-body">
                     <h2 className="job position">{title}</h2>

@@ -3,7 +3,7 @@ const jobs = [
         id:0,
         title: "Program Lead",
         dates: "February 2021 - Present",
-        duties: ["Performed quantitative and qualitative analysis to audit and manage operation deficiencies and risks", "Manage client relationship by identifying operation risks and action plans to recommed near-term and long-term solutions.","Improved core KPI and customer satisfaction by 20% by designing and implementing a new business process flow."],
+        duties: ["Perform quantitative and qualitative analysis to audit and manage operation deficiencies and risks", "Manage client relationship by identifying operation risks and action plans to recommed near-term and long-term solutions.","Improve core KPI and customer satisfaction by 20% by designing and implementing a new business process flow."],
         company: "CEF Solutions Inc"
     },
     {

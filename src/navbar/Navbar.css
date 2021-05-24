@@ -1,0 +1,82 @@
+.fa-bars {
+    cursor: pointer;
+    position: fixed;
+    right: 15px;
+    top: 10px;
+    color: #000;
+    font-size: 2.1em;
+    padding: 0 7px;
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 20%);
+    z-index: 1;
+}
+
+.active-list {
+    position: fixed;
+    height: 100%;
+    width: 100vw;
+    z-index: 100;
+    background: #fff;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.active-list p, .active-list a {
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+    margin-right: 1em;
+}
+
+.active-list a:visited {
+    color: #000;
+}
+
+.io {
+    font-size: 1.5em;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.visibility {
+    visibility: hidden;
+}
+
+.nav-bar {
+    position: fixed;
+    z-index: 1;
+    visibility: hidden;
+}
+
+
+@media only screen and (min-width: 1024px) {
+    .fa-bars {
+        visibility: hidden;
+    }
+
+    .nav-bar {
+        box-shadow: 0 1px 2px rgb(0 0 0 / 24%);
+        cursor: pointer;
+        position: fixed;
+        width: 100vw;
+        color: #000;
+        font-size: 1em;
+        padding: 0.75em;
+        border-radius: 4px;
+        background: #fff;
+        z-index: 1;
+        text-align: right;
+        visibility: visible;
+    }
+
+    .nav-bar a{
+        padding: 8px;
+    }
+
+    .nav-bar a:visited {
+        color: #000;
+    }
+
+}

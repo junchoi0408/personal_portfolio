@@ -4,17 +4,24 @@ import './Education.css';
 
 const Education = () => {
     const [id, setId ] = useState(0);
-    const { education, degree, dates, courses} = educations[id];
+    const { education, degrees, dates, organizations, courses} = educations[id];
     return (
         <div id='education' className='title'>
             <h1>Education</h1>
             <div className="education-body">
                 <h2>{education}</h2>
-                <p>{dates}</p>
-                <p>{degree}</p>
+                <p className=".education-date">{dates}</p>
+                {degrees.map((degree)=>
+                {
+                    return (<p>{degree}</p>)
+                })}
                 <br></br>
                 <p>Relevant Coursework:</p>
-                <p>{courses}</p>
+                {courses.map((course)=>{
+                    return(
+                            <li>{course}</li>
+                    )
+                })}
             </div>
         </div>
     )

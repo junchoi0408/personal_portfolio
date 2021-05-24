@@ -11,3 +11,19 @@
 .education-body p {
     font-size: 1em;
 }
+
+@media only screen and (min-width: 760px) {
+    .education-body {
+        width: 720px;
+        margin-left: auto;
+        margin-right:auto;
+    }
+
+    .education-body h2, .education-date {
+        display: inline;
+    }
+
+    .education-date {
+        margin-left: 14em;
+    }
+}

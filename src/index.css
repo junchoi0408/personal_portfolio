@@ -20,11 +20,12 @@ a:visited {
     height: auto;
     position: relative;
     padding: 1em 1.5em 3em 1.5em;
+    z-index: auto;
 }
 
 .title h1 {
     display: block;
-    font-size: clamp(2em, 5vw, 2em);
+    font-size: 2em;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
@@ -33,5 +34,5 @@ a:visited {
 }
 
 .title p {
-    font-size: clamp(1.25em, 5vw, 1.5em);
+    font-size: 1em;
 }
